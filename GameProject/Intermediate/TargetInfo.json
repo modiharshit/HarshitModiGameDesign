@@ -1,0 +1,9 @@
+{
+	"Targets": [
+		{
+			"Name": "GameProject",
+			"Path": "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/Source/GameProject.Target.cs",
+			"Type": "Game"
+		}
+	]
+}

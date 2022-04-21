@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F6DDE87770C5A225363F8F /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */; };
+		1CA02256E208777020EF3683 /* DefaultEditorPerProjectUserSettings.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */; };
+		24EDCC7DA8ED33C0F2D72993 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultGame.ini */; };
+		34DF79E2EDFE67416BEF77BF /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */; };
+		39A799C779365B4E9F469821 /* GameProject.png in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9 /* GameProject.png */; };
+		1A0C466F5D75E4D8AD6765D5 /* GameProject.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* GameProject.uproject */; };
+		861F9D7EE6D5C612A2B636E5 /* GameProject.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = D7AAE62B277027FF7109EC78 /* GameProject.Build.cs */; };
+		6A1C57D24B43511BC64CAF53 /* GameProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F04A8E3F5BA6D411097E61A /* GameProject.cpp */; };
+		EC5E64005393B30D4A402975 /* GameProject.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* GameProject.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditorPerProjectUserSettings.ini"; path = "../../Config/DefaultEditorPerProjectUserSettings.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* GameProject.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "GameProject.png"; path = "../../GameProject.png"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 /* GameProject.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "GameProject.uproject"; path = "../../GameProject.uproject"; sourceTree = SOURCE_ROOT; };
+		D7AAE62B277027FF7109EC78 /* GameProject.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "GameProject.Build.cs"; path = "../Source/GameProject.Build.cs"; sourceTree = SOURCE_ROOT; };
+		8F04A8E3F5BA6D411097E61A /* GameProject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GameProject.cpp"; path = "../Source/GameProject.cpp"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B /* GameProject.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "GameProject.Target.cs"; path = "../Source/GameProject.Target.cs"; sourceTree = SOURCE_ROOT; };
+		F30EDBF5775B1E1F19862D0A /* GameProject */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = GameProject; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02590C98F61C3646DDD364CF = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1C57D24B43511BC64CAF53 /* GameProject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	A572E7A90DBB81CFD7588021 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		9A5BCDEE2532206AEFDE6501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F655ADE853442CC3AB52B84B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6FE087BD409440D331C409;
+			remoteInfo = "GameProject_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		84849FB9DC0244FDC915E3C9 = {
+			isa = PBXGroup;
+			children = (
+				CB81C5EDAF72D16A29A1E4DE /* Config */,
+				53045C9937DB8FFEB49F9DF7 /* Intermediate */,
+				6EF1EB4E659A8BF798C986A9 /* GameProject.png */,
+				F519DBC82B7C343B37F88500 /* GameProject.uproject */,
+				5393C0E9965D0AFFE061C98E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB81C5EDAF72D16A29A1E4DE = {
+			isa = PBXGroup;
+			children = (
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultGame.ini */,
+				6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Config";
+			sourceTree = "<absolute>";
+		};
+		53045C9937DB8FFEB49F9DF7 = {
+			isa = PBXGroup;
+			children = (
+				DA8F5C72D9E6EA16BC66CF97 /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		DA8F5C72D9E6EA16BC66CF97 = {
+			isa = PBXGroup;
+			children = (
+				D7AAE62B277027FF7109EC78 /* GameProject.Build.cs */,
+				8F04A8E3F5BA6D411097E61A /* GameProject.cpp */,
+				CF746C0FF4BEC24D1E04EB4B /* GameProject.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		5393C0E9965D0AFFE061C98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30EDBF5775B1E1F19862D0A /* GameProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		CD6FE087BD409440D331C409 /* GameProject_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/GameProject.uproject\"";
+			buildConfigurationList = 4D3165C9723133E9DE09C48E /* Build configuration list for PBXLegacyTarget "GameProject_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_4.27/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_4.27";
+			dependencies = (
+			);
+			name = "GameProject_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "GameProject_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		B2B5A9F54ED7267C332514CA /* GameProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF3C75F651A1F8BFB929B23 /* Build configuration list for PBXNativeTarget "GameProject" */;
+			buildPhases = (
+				A572E7A90DBB81CFD7588021 /* Embed App Extensions */, 
+				EFF2F5B2A577F922BA10B782 /* Shell Script */, 
+			);
+			dependencies = (
+			);
+			name = "GameProject";
+			passBuildSettingsInEnvironment = 1;
+			productName = "GameProject";
+			productReference = "F30EDBF5775B1E1F19862D0A";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		CF715BD91E007C142DC221B6 /* GameProject_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5198ACAF49242DC149D2A846 /* Build configuration list for PBXNativeTarget "GameProject_Index" */;
+			buildPhases = (
+				02590C98F61C3646DDD364CF /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "GameProject_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "GameProject_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F655ADE853442CC3AB52B84B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					B2B5A9F54ED7267C332514CA = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E5BB21D3B4B0DB8B0FAF77D9 /* Build configuration list for PBXProject "GameProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 84849FB9DC0244FDC915E3C9;
+			productRefGroup = 5393C0E9965D0AFFE061C98E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			B2B5A9F54ED7267C332514CA /* GameProject */,
+			CD6FE087BD409440D331C409 /* GameProject_Build */,
+			CF715BD91E007C142DC221B6 /* GameProject_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F5AB06ADDE9DEC7F2FF14324 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		86D342C0590CA9090203855A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		5C0321FF672C95F76237B6DD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		7561F125DFFAB6AAD9EBA903 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "GameProject";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.game;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "GameProject-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		FB86A4EDDCAF6910AD8F710B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "GameProject";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.game;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "GameProject";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		CED10F57AE2E139DA69DEE87 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "GameProject";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.game;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "GameProject-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		2784A165DA411594BA64B362 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "GameProject";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		097C3ED7FAAB5456475DDF07 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "GameProject";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		75BB55032FC0BC723D587BF6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "GameProject";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		B4D4F03A6B01F1FDAFD13C43 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "GameProject";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.game;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "GameProject-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		FE543AADBBAA5FB04E963FE5 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "GameProject";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.game;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "GameProject";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		8A54EE1BC8E8A4C79D5CDFE9 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "GameProject";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.game;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "GameProject-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/HarshitModiGameDesignFinal/GameProject/Intermediate/IOS/GameProject.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5BB21D3B4B0DB8B0FAF77D9 /* Build configuration list for PBXProject "GameProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AB06ADDE9DEC7F2FF14324 /* "DebugGame" */,
+				86D342C0590CA9090203855A /* "Development" */,
+				5C0321FF672C95F76237B6DD /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		4D3165C9723133E9DE09C48E /* Build configuration list for PBXLegacyTarget "GameProject_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2784A165DA411594BA64B362 /* "DebugGame" */,
+				097C3ED7FAAB5456475DDF07 /* "Development" */,
+				75BB55032FC0BC723D587BF6 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7EF3C75F651A1F8BFB929B23 /* Build configuration list for PBXNativeTarget "GameProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7561F125DFFAB6AAD9EBA903 /* "DebugGame" */,
+				FB86A4EDDCAF6910AD8F710B /* "Development" */,
+				CED10F57AE2E139DA69DEE87 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5198ACAF49242DC149D2A846 /* Build configuration list for PBXNativeTarget "GameProject_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D4F03A6B01F1FDAFD13C43 /* "DebugGame" */,
+				FE543AADBBAA5FB04E963FE5 /* "Development" */,
+				8A54EE1BC8E8A4C79D5CDFE9 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+/* Begin PBXShellScriptBuildPhase section */
+		EFF2F5B2A577F922BA10B782 /* Sign Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			name = "Sign Manual Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nIFS=$'\\n'\n\nif [ $PLATFORM_NAME = iphoneos ] || [ $PLATFORM_NAME = tvos ]; then \n\tFRAMEWORK_DIR=$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/Frameworks\n\tfor FRAMEWORK in ${FRAMEWORK_DIR}/*.framework; do\n\t\t[ -d \"${FRAMEWORK}\" ] || continue\n\t\techo Codesigning ${FRAMEWORK}\n\t\tcodesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} --verbose --preserve-metadata=identifier,entitlements,flags --timestamp=none \"${FRAMEWORK}\"\n\tdone\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+	};
+	rootObject = F655ADE853442CC3AB52B84B /* Project object */;
+}
